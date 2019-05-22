@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 
-class AddPost extends React.Component {
+class AddPost extends Component {
   state = {
     title: "",
     des: ""
@@ -15,7 +15,7 @@ class AddPost extends React.Component {
   };
   handleSubmit = e => {
     e.preventDefault();
-
+    console.log(this.props);
     this.props.addPost(this.state);
     this.setState({
       title: "",
