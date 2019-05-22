@@ -1,1 +1,1 @@
-# mern_stack_starter
+# mern_stack_starter With Implementation of redux
